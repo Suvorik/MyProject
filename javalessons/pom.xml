@@ -7,6 +7,10 @@
     <groupId>turlo</groupId>
     <artifactId>javalessons</artifactId>
     <version>lesson1</version>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
 
 </project>
