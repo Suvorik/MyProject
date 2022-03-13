@@ -18,6 +18,7 @@ public class Employee {
 
     }
 
+
     public void print() {
         System.out.println("ФИО: " + name + "  " + " Должность: " + post + "  "
                 + " e-mail: " + email + "  " + " Тел.: " + telephone + "  " + " ЗП: " + salary + "  " + " Возраст: " + age);
