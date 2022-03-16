@@ -9,9 +9,10 @@ public class Park {
 
 
     public Park() {
-        System.out.print("Название отракциона:");
+        System.out.print("Название аттракциона:");
         setPark(ob.next());
         info = new info();
+
     }
 
     public String getPark() {
@@ -25,10 +26,10 @@ public class Park {
     public class info {
         int st, sq;
 
-        public void inf() {
+        public info() {
             System.out.print("время работы:");
             setSt(ob.nextInt());
-            System.out.print("введите цена билета:");
+            System.out.print("цена билета:");
             setSq(ob.nextInt());
         }
 
@@ -49,7 +50,8 @@ public class Park {
         }
 
         public void print() {
-            System.out.print("Атракцион" + " " + getPark() + "Время работы" + getSt() + "Цена билета" + getSq());
+            System.out.println("Аттракцион" + " " + getPark() + " " + "Время работы" + " " + +getSt() +
+                    " " + "Цена билета" + " " + +getSq());
         }
     }
 
