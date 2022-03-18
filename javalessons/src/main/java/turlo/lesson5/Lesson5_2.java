@@ -18,7 +18,7 @@ public class Lesson5_2 {
         System.out.println("Массы коробок " + (box1.compare(box2) ? "одинаковы" : "не одинаковы") + ".");
         System.out.println("В коробке №1 хранятся " + box1.getProduct().get(0).getClass().getSimpleName());
         Box box3 = new Box();
-
+        System.out.println("Создание коробки №3");
         box3.add(new Apple());
         box3.add(new Apple());
         box3.add(new Apple());
